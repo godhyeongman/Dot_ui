@@ -1,0 +1,10 @@
+{
+  "name": "dot-ui",
+  "version": "0.0.0",
+  "main": "index.ts",
+  "devDependencies": {},
+  "scripts": {
+    "build": "tsc index.ts --outDir dist"
+  },
+  "dependencies": {}
+}
