@@ -40,10 +40,9 @@
     "recoil": "^0.7.5",
     "styled-component": "^2.8.0",
     "styled-reset": "^4.4.2",
-    "dot-ui": "*"
+    "dot-ui-kit": "*"
   },
   "scripts": {
-    "build": "tsc index.ts --outDir dist",
     "start": "cross-env NODE_ENV=development webpack serve --config config/webpack.dev.js --progress",
     "build:dev": "cross-env NODE_ENV=development webpack --config config/webpack.dev.js --progress",
     "build:prod": "cross-env NODE_ENV=production webpack --config config/webpack.prod.js --progress"
