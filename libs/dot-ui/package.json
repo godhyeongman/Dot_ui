@@ -4,5 +4,17 @@
   "main": "index.ts",
   "scripts": {
     "build": "tsc index.ts --outDir dist"
+  },
+  "dependencies": {
+    "dot-ui-kit": "*"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.15",
+    "@types/react-dom": "^18.0.6"
+  },
+  "peerDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "styled-component": "^2.8.0"
   }
 }

@@ -1,0 +1,21 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "outDir": "./dist",
+    "jsx": "react-jsx",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "declaration": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"]
+    }
+  },
+  "include": [
+    "src/**/*",
+    "./index.ts"
+    //     "src/types/svgDeclare.d.ts",
+    //     "src/types/globalTheme.d.ts",
+    //     "src/types/API.d.ts"
+  ],
+  "exclude": ["dist", "node_modules"]
+}
