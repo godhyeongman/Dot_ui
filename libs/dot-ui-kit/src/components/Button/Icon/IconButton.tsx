@@ -1,11 +1,10 @@
 import { ElementType, forwardRef, Ref } from 'react';
 
-import { Icon } from '@/components/Icon';
-import { IconTypes } from '@/components/Icon/types';
-import { Combine } from '@/util/polymorphicComponentT';
-
 import { ButtonLayout } from './style';
 
+import { Combine } from '../../../util/polymorphicComponentT';
+import { Icon } from '../../Icon';
+import { IconTypes } from '../../Icon/types';
 import { Button } from '../Core';
 import { ButtonProps } from '../Core/types';
 
