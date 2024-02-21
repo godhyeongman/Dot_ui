@@ -1,5 +1,5 @@
 {
-  "name": "Dot_ui",
+  "name": "dot_ui",
   "private": true,
   "scripts": {
     "build": "turbo build",
